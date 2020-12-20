@@ -15,6 +15,7 @@ setup(
     version='1.0',
     description='Export network data from UPNP devices supporting WANCommonIFC1 to Prometheus',
     long_description=long_description,
+    long_description_content_type="text/markdown",
     url='https://github.com/pboardman/WANCommonIFC1_exporter',
     author='Pascal Boardman',
     author_email='pascalboardman@gmail.com',
