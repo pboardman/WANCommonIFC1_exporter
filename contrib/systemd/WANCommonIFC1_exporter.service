@@ -1,0 +1,12 @@
+[Unit]
+Description=Export Network data from UPNP devices supporting WANCommonIFC1 to Prometheus
+Wants=network.target
+After=network.target
+
+[Service]
+User=USER
+ExecStart=WANCommonIFC1_exporter IP PORT
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
