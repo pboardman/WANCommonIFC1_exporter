@@ -27,7 +27,7 @@ WANCommonIFC1_exporter will then expose metrics on port **8125** on `/` and `/me
 
 ## Metrics
 
-| Metric Name | Description | Data Type |
-|----------|-------------|------|
-|bytes_received_total|Number of bytes received since WANCommonIFC1_exporter was started|Counter|
-|bytes_sent_total|Number of bytes sent since WANCommonIFC1_exporter was started|Counter|
+| Metric Name | Description | Data Type
+|----------|-------------|------
+|bytes_received_total|Number of bytes received since WANCommonIFC1_exporter was started|Counter
+|bytes_sent_total|Number of bytes sent since WANCommonIFC1_exporter was started|Counter
